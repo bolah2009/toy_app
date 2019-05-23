@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: database_development
+  database: toy_app_development
 
 test:
   <<: *default
-  database: database_test
+  database: toy_app_test
 
 production:
   <<: *default
-  database: database_production
+  database: toy_app_production
